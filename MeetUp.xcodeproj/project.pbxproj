@@ -13,7 +13,7 @@
 		366CDF1F2605E229001CDFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366CDF1E2605E229001CDFE3 /* Assets.xcassets */; };
 		366CDF222605E229001CDFE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366CDF212605E229001CDFE3 /* Preview Assets.xcassets */; };
 		366CDF252605E229001CDFE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366CDF232605E229001CDFE3 /* LaunchScreen.storyboard */; };
-		366CDF322605EFAE001CDFE3 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 366CDF312605EFAE001CDFE3 /* MyLibrary */; };
+		366CDF382605F3B2001CDFE3 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 366CDF372605F3B2001CDFE3 /* MyLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		366CDF212605E229001CDFE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		366CDF242605E229001CDFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366CDF262605E229001CDFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		366CDF2E2605EFA3001CDFE3 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyLibrary; path = ../MyLibrary; sourceTree = "<group>"; };
+		366CDF352605F38E001CDFE3 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MyLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				366CDF322605EFAE001CDFE3 /* MyLibrary in Frameworks */,
+				366CDF382605F3B2001CDFE3 /* MyLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		366CDF0C2605E227001CDFE3 = {
 			isa = PBXGroup;
 			children = (
-				366CDF2E2605EFA3001CDFE3 /* MyLibrary */,
+				366CDF352605F38E001CDFE3 /* MyLibrary */,
 				366CDF172605E227001CDFE3 /* MeetUp */,
 				366CDF162605E227001CDFE3 /* Products */,
 				366CDF302605EFAE001CDFE3 /* Frameworks */,
@@ -104,7 +104,7 @@
 			);
 			name = MeetUp;
 			packageProductDependencies = (
-				366CDF312605EFAE001CDFE3 /* MyLibrary */,
+				366CDF372605F3B2001CDFE3 /* MyLibrary */,
 			);
 			productName = MeetUp;
 			productReference = 366CDF152605E227001CDFE3 /* MeetUp.app */;
@@ -362,7 +362,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		366CDF312605EFAE001CDFE3 /* MyLibrary */ = {
+		366CDF372605F3B2001CDFE3 /* MyLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MyLibrary;
 		};
